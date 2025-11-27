@@ -104,6 +104,7 @@ while True:
     print('3. Actualizar precio')
     print('4. Salir')
     print('5. Esta es una opcion nueva')
+    print('6. Otra opcion')
 
     try:
         opcion= int(input('Ingrese una opción\n >> '))
@@ -125,7 +126,8 @@ while True:
             continue
 
         elif opcion == 3:
-            actualizar_precio()
+            while not actualizar_precio():
+                print('Error')
             continue
         
         elif opcion == 4:
