@@ -103,6 +103,7 @@ while True:
     print('2. Busqueda por precio')
     print('3. Actualizar precio')
     print('4. Salir')
+    print('5. Esta es una opcion nueva')
 
     try:
         opcion= int(input('Ingrese una opción\n >> '))
